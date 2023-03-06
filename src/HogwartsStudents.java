@@ -14,4 +14,11 @@ abstract public class HogwartsStudents {
     public int getTransgressionDistance() {
         return transgressionDistance;
     }
+
+    private int calculateBasicAttributesSum() {
+        return magic + transgressionDistance;
+    }
+    public void compareByBasicAttributes(HogwartsStudents hogwartsStudents) {
+
+    }
 }
